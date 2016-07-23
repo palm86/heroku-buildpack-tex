@@ -76,7 +76,7 @@ if [ ! `which pdflatex` ]; then
 
     cd $TEXLIVE_HOME
 
-    ./install-tl --profile=$PROF --location http://tug.org/historic/systems/texlive/2015/tlnet-final
+    ./install-tl --profile=$PROF --location ftp://tug.org/historic/systems/texlive/2015/tlnet-final
 fi
 
 # tlmgr option repository ftp://tug.org/historic/systems/texlive/2015/tlnet-final
